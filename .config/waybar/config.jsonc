@@ -8,7 +8,10 @@
   "modules-right": ["tray", "clock"],
 
   "wlr/taskbar": {
+    "format": "{icon} {title}",
+    "markup": true,
     "icon-size": 20,
+    "on-click": "activate",
   },
 
   "clock": {

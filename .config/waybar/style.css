@@ -21,4 +21,5 @@ window#waybar {
 
 #clock {
   font-size: 12px;
+  margin-left: 10px;
 }
