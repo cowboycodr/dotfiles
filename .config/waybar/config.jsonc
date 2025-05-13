@@ -1,0 +1,19 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "height": 40,
+
+  "modules-left": ["wlr/taskbar"],
+  "modules-center": [],
+  "modules-right": ["tray", "clock"],
+
+  "wlr/taskbar": {
+    "icon-size": 20,
+  },
+
+  "clock": {
+    "format": "{:>%I:%M %p \n %m/%d/%Y}",
+    "align": 1,
+    "justify": "right",
+  },
+}
