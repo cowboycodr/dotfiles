@@ -17,6 +17,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 
+# Start Hyrpland automatically
 if uwsm check may-start; then
     exec uwsm start hyprland.desktop
 fi
