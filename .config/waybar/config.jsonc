@@ -7,8 +7,12 @@
   "modules-center": [],
   "modules-right": ["tray", "clock"],
 
+  "tray": {
+    "spacing": 5,
+  },
+
   "wlr/taskbar": {
-    "format": "{icon} {title}",
+    "format": "{icon}   {title:.25}",
     "markup": true,
     "icon-size": 20,
     "on-click": "activate",
