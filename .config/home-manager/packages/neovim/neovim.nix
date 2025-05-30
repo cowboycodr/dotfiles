@@ -4,24 +4,29 @@
   ...
 }: {
   home.packages = with pkgs; [
-    alejandra
-    nixd
+    # runtimes
+    nodejs_20
 
-    rust-analyzer
-    lua-language-server
-
+    # compilers
+    gcc
     go
-    gopls
-
-    prettierd
-    nodePackages.prettier
-
     zig
+
+    # language servers
+    gopls
+    lua-language-server
+    nixd
+    rust-analyzer
+    svelte-language-server
+    tree-sitter
+    typescript-language-server
     zls
 
-    tree-sitter
-
-    nodejs
+    # formatters
+    alejandra
+    nodePackages.prettier
+    prettierd
+    stylua
   ];
 
   programs.neovim = {
