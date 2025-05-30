@@ -70,6 +70,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     adwaita-icon-theme
+    ripgrep
   ];
 
   system.stateVersion = "25.05";
