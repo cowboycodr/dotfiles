@@ -19,7 +19,8 @@
   },
 
   "clock": {
-    "format": "{:>%I:%M %p \n %m/%d/%Y}",
+    "format": "{:>%I:%M:%S %p \n %m/%d/%Y}",
+    "interval": 1,
     "align": 1,
     "justify": "right",
   },
