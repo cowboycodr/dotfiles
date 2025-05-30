@@ -28,6 +28,12 @@ window#waybar {
   margin-left: 10px;
 }
 
+/* #custom-power { */
+/*   font-size: 15px; */
+/*   margin-left: 10px; */
+/*   margin-right: 10px; */
+/* } */
+
 #taskbar button {
   min-width: 175px;
 

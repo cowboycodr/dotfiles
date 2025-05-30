@@ -28,4 +28,10 @@
     "align": 1,
     "justify": "right",
   },
+
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": "Power Off",
+    "on-click": "poweroff",
+  },
 }
