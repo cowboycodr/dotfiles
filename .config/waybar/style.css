@@ -33,8 +33,22 @@ window#waybar {
 
   border-radius: 0;
   border-bottom: 3px solid #969696;
+
+  transition-property: border-color;
+  transition-duration: 150ms;
 }
 
 #taskbar button.active {
+  border-bottom: 3px solid #333333;
+}
+
+#workspaces button {
+  border-bottom: 3px solid #969696;
+
+  transition-property: border-color;
+  transition-duration: 150ms;
+}
+
+#workspaces button.active {
   border-bottom: 3px solid #333333;
 }

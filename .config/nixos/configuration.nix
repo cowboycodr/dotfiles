@@ -72,6 +72,7 @@
   environment.systemPackages = with pkgs; [
     adwaita-icon-theme
     ripgrep
+    gcc
   ];
 
   system.stateVersion = "25.05";
