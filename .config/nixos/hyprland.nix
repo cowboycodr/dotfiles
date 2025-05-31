@@ -38,20 +38,32 @@
     swaynotificationcenter
   ];
 
-  fonts.fontconfig.localConf = ''
-    <?xml version="1.0"?>
-    <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
-    <fontconfig>
-      <alias>
-        <family>Segoe UI</family>
-        <prefer><family>Noto Sans</family></prefer>
-      </alias>
-    </fontconfig>
-  '';
+  fonts = {
+    packages = with pkgs; [
+      corefonts
+      inter
+      jetbrains-mono
+      noto-fonts
+    ];
 
-  fonts.packages = with pkgs; [
-    corefonts
-    jetbrains-mono
-    noto-fonts
-  ];
+    fontconfig = {
+      defaultFonts = {
+        serif = ["Inter" "Noto Serif"];
+        sansSerif = ["Inter" "Noto Sans"];
+        monospace = ["JetBrains Mono" "Noto Sans Mono"];
+        emoji = ["Noto Color Emoji"];
+      };
+
+      localConf = ''
+        <?xml version="1.0"?>
+        <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
+        <fontconfig>
+          <alias>
+            <family>Segoe UI</family>
+            <prefer><family>Noto Sans</family></prefer>
+          </alias>
+        </fontconfig>
+      '';
+    };
+  };
 }
