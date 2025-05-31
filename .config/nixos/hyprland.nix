@@ -36,6 +36,7 @@
   environment.systemPackages = with pkgs; [
     hyprpolkitagent
     swaynotificationcenter
+    hyprsunset
   ];
 
   fonts = {
