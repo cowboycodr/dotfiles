@@ -55,5 +55,6 @@
     ../packages/xremap/xremap.nix
     ../packages/waybar/waybar.nix
     ../packages/pavucontrol/pavucontrol.nix
+    ../packages/minecraft/minecraft.nix
   ];
 }

@@ -23,7 +23,7 @@
   },
 
   "clock": {
-    "format": "{:>%I:%M:%S %p \n %m/%d/%Y}",
+    "format": "{:>%I:%M:%S \n %m/%d/%y}",
     "interval": 1,
     "align": 1,
     "justify": "right",
