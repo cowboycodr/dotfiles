@@ -3,9 +3,13 @@
   pkgs,
   ...
 }: {
-  xdg.configFile."ghostty/config".source = ./config;
-
   programs.ghostty = {
     enable = true;
+
+    settings = {
+      font-family = "JetBrains Mono Medium";
+      theme = "CutiePro";
+      font-size = 16;
+    };
   };
 }
