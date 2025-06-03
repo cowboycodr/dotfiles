@@ -56,5 +56,7 @@
     ../packages/waybar/waybar.nix
     ../packages/pavucontrol/pavucontrol.nix
     ../packages/minecraft/minecraft.nix
+    ../packages/tmux/tmux.nix
+    ../packages/vscode/vscode.nix
   ];
 }

@@ -7,6 +7,9 @@
     # runtimes
     nodejs_20
 
+    # package managers
+    cargo
+
     # compilers
     gcc
     go
