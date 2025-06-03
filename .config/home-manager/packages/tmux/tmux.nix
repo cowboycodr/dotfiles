@@ -9,6 +9,7 @@
 
     extraConfig = ''
       set-option -s escape-time 10
+      set-window-option -g mode-keys vi
     '';
   };
 }
