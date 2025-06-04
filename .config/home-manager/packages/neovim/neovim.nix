@@ -8,7 +8,7 @@
     nodejs_20
 
     # package managers
-    cargo
+    rustup
 
     # compilers
     gcc
@@ -19,7 +19,6 @@
     gopls
     lua-language-server
     nixd
-    rust-analyzer
     svelte-language-server
     tree-sitter
     typescript-language-server
@@ -31,6 +30,10 @@
     prettierd
     stylua
   ];
+
+  # Rust setup instructions
+  # > rustup toolchain install stable
+  # > rustup component add rust-analyzer
 
   programs.neovim = {
     enable = true;
