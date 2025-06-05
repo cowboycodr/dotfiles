@@ -7,9 +7,13 @@
     enable = true;
 
     settings = {
-      font-family = "JetBrains Mono Medium";
       theme = "CutiePro";
-      font-size = 17;
+
+      font-family = "JetBrains Mono Medium";
+      font-size = 16;
+
+      window-padding-x = 0;
+      window-padding-y = 0;
     };
   };
 }
