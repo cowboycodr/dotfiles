@@ -9,7 +9,7 @@
     settings = {
       font-family = "JetBrains Mono Medium";
       theme = "CutiePro";
-      font-size = 16;
+      font-size = 17;
     };
   };
 }
