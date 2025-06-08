@@ -10,11 +10,6 @@
     ];
   };
 
-  home.file."Pictures/" = {
-    source = ./assets; # Pulls in my wallpapers
-    recursive = true;
-  };
-
   home.packages = with pkgs; [
     # Hyprland packages
     hyprpaper

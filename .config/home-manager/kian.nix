@@ -30,6 +30,11 @@
     # '')
   ];
 
+  home.file."Pictures/" = {
+    source = ./assets; # Pulls in my wallpapers
+    recursive = true;
+  };
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 
