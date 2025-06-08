@@ -11,6 +11,7 @@
       window-padding-x = 0;
       window-padding-y = 0;
     };
+  };
 
     programs.tmux = {
       enable = true;
