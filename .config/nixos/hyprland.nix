@@ -61,7 +61,7 @@
         <fontconfig>
           <alias>
             <family>Segoe UI</family>
-            <prefer><family>Noto Sans</family></prefer>
+            <prefer><family>Inter</family></prefer>
           </alias>
         </fontconfig>
       '';
