@@ -40,7 +40,9 @@
 
   imports = [
     ./packages/desktop.nix
-    ./packages/neovim.nix
+    ./packages/applications.nix
+
     ./packages/terminal.nix
+    ./packages/neovim.nix
   ];
 }
