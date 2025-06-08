@@ -79,6 +79,7 @@
 
     home.packages = with pkgs; [
       delta
+      bat
     ];
   };
 }
