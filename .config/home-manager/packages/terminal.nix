@@ -1,6 +1,6 @@
 {pkgs, ...}: {
   programs.ghostty = {
-    enabled = true;
+    enable = true;
 
     settings = {
       theme = "CutiePro";
