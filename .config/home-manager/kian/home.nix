@@ -43,29 +43,8 @@
   programs.home-manager.enable = true;
 
   imports = [
-    # Core system utilities
-    ../packages/zsh/zsh.nix
-    ../packages/git/git.nix
-    ../packages/tmux/tmux.nix
-    ../packages/xremap/xremap.nix
-
-    # Desktop environment
-    ../packages/hyprland/hyprland.nix
-    ../packages/waybar/waybar.nix
-    ../packages/rofi/rofi.nix
-    ../packages/pavucontrol/pavucontrol.nix
-    ../packages/dolphin/dolphin.nix
-
-    # Applications
-    ../packages/firefox/firefox.nix
-    ../packages/discord/discord.nix
-    ../packages/minecraft/minecraft.nix
-
-    # Development
-    ../packages/neovim/neovim.nix
-    # ../packages/vscode/vscode.nix
-
-    # Terminal
-    ../packages/ghostty/ghostty.nix
+    ../packages/desktop.nix
+    ../packages/neovim.nix
+    ../packages/terminal.nix 
   ];
 }
