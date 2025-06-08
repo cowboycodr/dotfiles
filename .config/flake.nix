@@ -41,7 +41,7 @@
       };
 
       modules = [
-        ./home-manager/kian/home.nix
+        ./home-manager/kian.nix
         inputs.xremap-flake.homeManagerModules.default
       ];
     };
