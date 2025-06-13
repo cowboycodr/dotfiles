@@ -6,7 +6,7 @@
       theme = "CutiePro";
 
       font-family = "JetBrains Mono Medium";
-      font-size = 16;
+      font-size = 15;
 
       window-padding-x = 0;
       window-padding-y = 0;
@@ -76,6 +76,10 @@
       plugins = ["git"];
       theme = "robbyrussell";
     };
+
+    # initContent = ''
+    #     export PATH="/home/kian/.opencode/bin:$PATH"
+    # '';
   };
 
   home.packages = with pkgs; [
