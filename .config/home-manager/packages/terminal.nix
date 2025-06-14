@@ -76,10 +76,6 @@
       plugins = ["git"];
       theme = "robbyrussell";
     };
-
-    # initContent = ''
-    #     export PATH="/home/kian/.opencode/bin:$PATH"
-    # '';
   };
 
   home.packages = with pkgs; [
