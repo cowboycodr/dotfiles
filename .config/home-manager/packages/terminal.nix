@@ -24,7 +24,8 @@
     terminal = "xterm-256color";
 
     extraConfig = ''
-      set -g status-style "bg=#f72f93 fg=#ffffff"
+      # set -g status-style "bg=#f72f93 fg=#ffffff"
+      set -g status-style "bg=#058743 fg=#ffffff"
     '';
   };
 
