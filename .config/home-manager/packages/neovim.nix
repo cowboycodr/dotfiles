@@ -12,6 +12,7 @@
     zig
 
     # language servers
+    clang-tools
     gopls
     lua-language-server
     nixd
