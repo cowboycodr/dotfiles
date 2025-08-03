@@ -4,6 +4,7 @@
   programs.waybar.enable = true;
 
   home.packages = with pkgs; [
+    brave
     discord
     kdePackages.dolphin
     pavucontrol

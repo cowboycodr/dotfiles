@@ -1,6 +1,7 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     # runtimes
+    bun
     nodejs_20
 
     # package managers
@@ -26,6 +27,9 @@
     nodePackages.prettier
     prettierd
     stylua
+
+    # misc.
+    opencode
   ];
 
   # Rust setup instructions
