@@ -3,7 +3,7 @@
     enable = true;
 
     settings = {
-      theme = "CutiePro";
+      theme = "matrix";
 
       font-family = "JetBrains Mono Medium";
       font-size = 15;
