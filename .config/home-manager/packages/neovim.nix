@@ -19,6 +19,7 @@
     nixd
     svelte-language-server
     tree-sitter
+    tailwindcss-language-server
     typescript-language-server
     zls
 

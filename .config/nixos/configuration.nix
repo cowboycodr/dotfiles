@@ -72,11 +72,13 @@
   programs.noisetorch.enable = true;
   programs.htop.enable = true;
 
-    services.avahi = {
-        enable = true;
-        nssmdns = true;
-        openFirewall = true;
-    };
+  services.avahi = {
+    enable = true;
+    nssmdns = true;
+    openFirewall = true;
+  };
+
+  virtualisation.waydroid.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
