@@ -80,7 +80,8 @@
   };
 
   home.packages = with pkgs; [
-    delta
+    cloudflared
     bat
+    delta
   ];
 }
